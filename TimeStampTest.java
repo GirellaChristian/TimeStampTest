@@ -137,6 +137,8 @@ public class TimeStampTest {
         System.out.print("addS-->");
         ts1.addS(12);
         assertEquals(46, ts1.getSeconds());
+        ts1.addS(40);
+        assertEquals(14, ts1.getSeconds());
         System.out.println("ok");
     }
     @Test
