@@ -50,6 +50,10 @@ public class TimeStampTest {
         System.out.print("setMonth-->");
         ts1.setMonth(7);
         assertEquals(7, ts1.getMonth());
+        ts1.setMonth(13);
+        assertEquals(1, ts1.getMonth());
+        ts1.setMonth(-1);
+        assertEquals(1, ts1.getMonth());
         System.out.println("ok");
     }
     @Test
