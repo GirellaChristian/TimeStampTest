@@ -80,9 +80,9 @@ public class TimeStampTest {
         ts1.setMinutes(34);
         assertEquals(34, ts1.getMinutes());
         ts1.setMinutes(62);
-        assertEquals(1, ts1.getMinutes());
+        assertEquals(0, ts1.getMinutes());
         ts1.setMinutes(-1);
-        assertEquals(1, ts1.getMinutes());
+        assertEquals(0, ts1.getMinutes());
         System.out.println("ok");
     }
     @Test
@@ -91,9 +91,9 @@ public class TimeStampTest {
         ts1.setSeconds(45);
         assertEquals(45, ts1.getSeconds());
         ts1.setSecond(-1);
-        assertEquals(1, ts1.getSecond());
+        assertEquals(0, ts1.getSecond());
         ts1.setSeconds(61);
-        assertEquals(1, ts1.getSeconds());
+        assertEquals(0, ts1.getSeconds());
         System.out.println("ok");
     }
     @Test
