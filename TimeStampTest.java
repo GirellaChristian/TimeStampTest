@@ -43,6 +43,10 @@ public class TimeStampTest {
         System.out.print("setYear-->");
         ts1.setYear(2001);
         assertEquals(2001, ts1.getYear());
+        ts1.setYear(3001);
+        assertEquals(1970, ts1.getYear());
+        ts1.setYear(-1);
+        assertEquals(1970, ts1.getYear());
         System.out.println("ok");
     }
     @Test
