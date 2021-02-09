@@ -12,10 +12,6 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
-/**
- *
- * @author Account riparazione
- */
 public class TimeStampTest {
     
     TimeStamp ts1, ts2;
